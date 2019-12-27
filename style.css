@@ -67,7 +67,7 @@ main {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  padding: 8px 10px;
+  padding: 8px 15px;
   text-shadow: 0px 2px 1px rgba(0,0,0,0.5);
   
 
@@ -85,7 +85,7 @@ main {
 .header__nav--button:hover {
   background: #f4d06f;
   border-radius: 10px;
-  padding: 8px 10x;
+  padding: 8px 15x;
   box-shadow: inset 0px 5px 10px -5px #333,
               inset 0px -5px 10px -5px #fbedca;
   border-top: 1px solid #f4d06f;
@@ -109,20 +109,43 @@ main {
 .head {
   background: linear-gradient(#fae9bd, #f4d06f);
   height: 300px;
+  box-shadow: 0px 3px #36213e;
+
   
   
 }
 
-.head__title {
+.head__container {
   margin: 0px auto;
-  width: 200px;
+  width: 1000px;
   max-width: 1000px;
-  padding: 0px 600px 0px 0px ;
+  position: relative;
+  height: 300px;
+
+}
+
+.head__container--title {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  max-width: 200px;
   font-family: 'Ma Shan Zheng', cursive;
   font-size: 50px;
   text-align: center;
   transform: rotate(-20deg);
-  color: #f4d06f;
+  color: #f4bc1f;
   text-shadow: 0px 4px 0px #000;
 }
+
+.head__container--plane {
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 50px;
+  
+}
+
+
 
