@@ -227,3 +227,8 @@ footer, .blog  {
   color: #fbedca;
   padding: 10px;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
